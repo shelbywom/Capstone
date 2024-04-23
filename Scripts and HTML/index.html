@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+</head>
+<body>
+    <h1>Select Spreadsheet</h1>
+    <select id="spreadsheetSelector">
+        <option value="">Select a Spreadsheet</option>
+        <option value="1X7Lei3shDMWBpbSg10ojV_5YOAtPP8de6c_9lCOjE8w">Test Sheet</option>
+        <option value="10hXoKMpDSEhg96HM7qEGsbJgssxJKCCHT1Rht-_-9_A">Empty Sheet</option>
+    </select>
+    <br>
+    <button onclick="authorize()">Authorize</button>
+
+    <script>
+    function authorize()
+    {
+      var spreadsheetId = document.getElementById("spreadsheetSelector").value;
+          console.log('Spreadsheet ID: ' + spreadsheetId); // Debugging line
+      google.script.run.withSuccessHandler(function(url)
+      {
+        window.open(url, '_blank');
+      }).authorize(spreadsheetId);
+    }
+    </script>
+</body>
+</html>
+
