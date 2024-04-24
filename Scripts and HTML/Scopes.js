@@ -9,9 +9,9 @@ function getOAuthService()
 {
   return OAuth2.createService('MyService')
     .setAuthorizationBaseUrl('https://accounts.google.com/o/oauth2/auth')
-    .setTokenUrl('https://accounts.google.com/o/oauth2/token')
-    .setClientId('469704937395-ovpi2vjha6jtje2dt7u8idhojai0rsg3.apps.googleusercontent.com')
-    .setClientSecret('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')
+    .setTokenUrl('.....')
+    .setClientId('.....')
+    .setClientSecret('.....')
     .setCallbackFunction('authCallback')
     .setPropertyStore(PropertiesService.getUserProperties())
     .setScope(SCOPES.join(' '));
