@@ -1,4 +1,7 @@
 <H2>Google Apps Script Email Reader</H2>
+<a href="https://script.google.com/home/projects/1imrKjSpl8-6Jj63XaDRFo6oXFBfNrNLYmFzAOHJsWmMpqYtjBQPzao20/edit">Scripts Editor</a>
+<a href="https://script.google.com/a/macros/nsuok.edu/s/AKfycbz9rd7u7nP30dLFl9SUtA079HRTdTqlhNL8lmy7Qajv3AK-WbdiGffuC7Fs7J6NtgzTSg/exec">Email and Roster Manager</a>
+</p>
 This Google Apps Script project is a web application that reads emails and writes important information into specific Google Spreadsheets. The user can select a target spreadsheet from a dropdown list in the web app.
 </p>
 </p>
