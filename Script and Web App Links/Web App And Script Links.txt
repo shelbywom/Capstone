@@ -1,0 +1,4 @@
+Please note that the scripts can only be edited by users with NSU access. This permission can be changed, but for security purposes, it probably shouldn't be. 
+
+<a href="https://script.google.com/home/projects/1imrKjSpl8-6Jj63XaDRFo6oXFBfNrNLYmFzAOHJsWmMpqYtjBQPzao20/edit">Scripts Editor</a>
+<a href="https://script.google.com/a/macros/nsuok.edu/s/AKfycbz9rd7u7nP30dLFl9SUtA079HRTdTqlhNL8lmy7Qajv3AK-WbdiGffuC7Fs7J6NtgzTSg/exec">Email and Roster Manager</a>
