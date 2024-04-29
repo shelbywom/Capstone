@@ -6,6 +6,7 @@ This Google Apps Script project is a web application that reads emails and write
 </p>
 </p>
 <strong>How it Works</strong></p>
+The application is designed to automate large quantities of emails and parse them for relevant data. Afterward, the program will place the relevant data in a target google spreadsheet of choice.</p>
 The application consists of three main parts:</P>
 
 <ul><strong>index.html</strong>: This is the user interface of the web app. It contains a dropdown list for selecting a target Google Spreadsheet and a button to authorize the app.
@@ -18,11 +19,11 @@ The application consists of three main parts:</P>
 <strong>Setup and Usage</strong>
 </p>
 
-To set up and run the application, follow these steps:
+To set up and run the application, follow these steps: (As it currently stands, only NSU users have access to the scripts)
 <ol>
-1. Create a new Google Apps Script project: Go to Google Apps Script and create a new project. </p>
-2. Copy the scripts: Copy the contents of index.html, EmailReader.gs, and UserInfoProcessor.gs into the corresponding files in your Apps Script project. </p>
-3. Set up OAuth2: The script uses OAuth2 for authorization. You’ll need to set up an OAuth2 client ID and secret in the Google Cloud Console and add them to the script. </p>
+1. Open the Hyperlink to "Scripts Editor" </p>
+2. Navigate to the index.html script in the editor and locate the container titled "Select Spreadsheet". </p>
+3. Your target spreadsheets must be included as option values for each spreadsheet. You can find the IDs of spreadsheets in the spreadsheet URL between d/ and /edit. Add the Target spreadsheets to the program.</p>
 4. Deploy as a web app: In the Apps Script editor, click on “Publish” > “Deploy as web app”. Choose the project version and set the access level to “Anyone, even anonymous”. Click “Update” to deploy the app. </p>
 5. Run the app: Open the web app URL in your browser. Select a spreadsheet from the dropdown list and click “Authorize” to start processing emails. </p>
 <strong>Please note that the script is set up to read emails from a specific Gmail account and search for emails with the subject containing the word “ordered”. You may need to modify the script to suit your specific needs. </strong>
