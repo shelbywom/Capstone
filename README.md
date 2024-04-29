@@ -6,6 +6,7 @@ This Google Apps Script project is a web application that reads emails and write
 </p>
 </p>
 <strong>How it Works</strong></p>
+The application is designed to automate large quantities of emails and parse them for relevant data. Afterward, the program will place the relevant data in a target google spreadsheet of choice.</p>
 The application consists of three main parts:</P>
 
 <ul><strong>index.html</strong>: This is the user interface of the web app. It contains a dropdown list for selecting a target Google Spreadsheet and a button to authorize the app.
