@@ -24,7 +24,7 @@ To set up and run the application, follow these steps: (As it currently stands, 
 1. Open the Hyperlink to "Scripts Editor" </p>
 2. Navigate to the index.html script in the editor and locate the container titled "Select Spreadsheet". </p>
 3. Your target spreadsheets must be included as option values for each spreadsheet. You can find the IDs of spreadsheets in the spreadsheet URL between d/ and /edit. Add the Target spreadsheets to the program.</p>
-4. Deploy as a web app: In the Apps Script editor, click on “Publish” > “Deploy as web app”. Choose the project version and set the access level to “Anyone, even anonymous”. Click “Update” to deploy the app. </p>
+4. Deploy as a web app: In the Apps Script editor, click on “Deploy” > “New Deployment”. Add a description and execute as "user accessing the web app". Allow access to "Anyone within NSU". Click “Deploy” to deploy the app. </p>
 5. Run the app: Open the web app URL in your browser. Select a spreadsheet from the dropdown list and click “Authorize” to start processing emails. </p>
 <strong>Please note that the script is set up to read emails from a specific Gmail account and search for emails with the subject containing the word “ordered”. You may need to modify the script to suit your specific needs. </strong>
 </ol>
