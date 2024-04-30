@@ -38,6 +38,8 @@ The script is subject to the limitations and quotas of Google Apps Script, such 
 <strong>Troubleshooting</strong></p>
 If you encounter issues while running the script, check the logs in the Apps Script editor for error messages. Make sure that the script has the necessary permissions to access your Gmail account and the target spreadsheet.
 </p></p>
+<strong>Support</strong></p>
+For further support, email me at womack03@nsuok.edu</p>
 <strong>Contributing</strong></p>
 Contributions to improve the script are welcome. Please feel free to submit issues and pull requests.
 </p></p>
